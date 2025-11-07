@@ -4,14 +4,9 @@ description: A collection of thoughts, projects, and experiments
 # Theme settings
 locale: "en-US"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air"  # other options: air, dark, neon, etc.
+minimal_mistakes_skin: "dark"  # other options: air, dark, neon, etc.
 # Plugins needed for the theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
-logo: /assets/images/logo.png
-author:
-  name: Don
-  avatar: /assets/images/avatar.jpg
-  bio: "Developer and maker"
