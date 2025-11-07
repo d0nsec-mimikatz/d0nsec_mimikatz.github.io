@@ -1,8 +1,12 @@
-title: Home
-description: A collection of things I'm working on
-theme: minima
-nav:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
+title: Learning in public
+name: Don
+description: A collection of thoughts, projects, and experiments
+# Theme settings
+locale: "en-US"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark"  # other options: air, dark, neon, etc.
+# Plugins needed for the theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
