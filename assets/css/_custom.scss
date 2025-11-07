@@ -1,3 +1,5 @@
+/* Deep Space Background for Minimal Mistakes */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -5,7 +7,22 @@ html, body {
   background: url("/assets/images/nasa-Yj1M5riCKk4-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #d6e1ff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .main-wrapper {
-  background: transparent;  /* Ensure the wrapper doesn’t override body */
+  background: transparent;  /* ensure the wrapper does not block the background */
+}
+
+a {
+  color: #6ad1ff;
+}
+
+a:hover {
+  color: #89e0ff;
+}
+
+/* Optional: give headers a subtle glow */
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 0 5px rgba(106, 209, 255, 0.5);
+}
