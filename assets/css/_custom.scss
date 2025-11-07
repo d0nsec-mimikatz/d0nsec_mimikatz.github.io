@@ -1,5 +1,11 @@
-body {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background: url("/assets/images/nasa-Yj1M5riCKk4-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #d6e1ff;
 }
+
+.main-wrapper {
+  background: transparent;  /* Ensure the wrapper doesn’t override body */
